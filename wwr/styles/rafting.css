@@ -31,10 +31,10 @@
 footer {
     position: relative; /* Makes it possible to position child elements */
     padding: 20px;
-    background-color: #f0f0f0; /* Light background */
+    background-color: #ffffff; /* Light background */
     text-align: center;
     font-size: 0.9rem; /* Slightly smaller text for copyright */
-    color: #333; /* Dark gray text */
+    color: #000000; /* Dark gray text */
   }
   
   /* Footer icons container */
