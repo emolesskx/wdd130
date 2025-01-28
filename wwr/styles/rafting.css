@@ -1,0 +1,99 @@
+/* Define color scheme */
+:root {
+    --primary-color: #274C77; /* Blue for headings */
+    --text-color: #000000; 
+    --background-color: #f0f8ff; /* Light background */
+    --overlay-bg: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    --link-hover: #00b4d8; /* Light blue for hover effects */
+  }
+  
+  /* General styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px; /* Limit page width */
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+ /* Footer styling */
+footer {
+    position: relative; /* Makes it possible to position child elements */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background */
+    text-align: center;
+    font-size: 0.9rem; /* Slightly smaller text for copyright */
+    color: #333; /* Dark gray text */
+  }
+  
+  /* Footer icons container */
+  .sociallinks {
+    position: absolute; /* Allows positioning relative to the footer */
+    bottom: 10px; /* Position near the bottom of the footer */
+    left: 10px; /* Align to the left */
+    display: flex;
+    gap: 5px; /* Space between icons */
+  }
+  
+  /* Icon styles */
+  .sociallinks a img {
+    width: 20px; /* Make icons small */
+    height: 20px; /* Keep the aspect ratio */
+    transition: transform 0.3s; /* Add hover effect */
+  }
+  
+  .sociallinks a img:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+  }
+  
+  
+  /* Hero Section */
+.hero {
+    position: relative; /* Parent positioned relative for child absolute positioning */
+    width: 100%;
+  }
+  
+  .hero img {
+    display: block; /* Makes the image a block element */
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintains the aspect ratio */
+  }
+  
+  .hero h1 {
+    position: absolute; /* Positioned over the image */
+    top: 20%; /* Adjust as needed */
+    left: 10%; /* Adjust as needed */
+    color: white; /* Ensures readability on dark images */
+    font-size: 2.5rem; /* Adjust font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adds contrast for text */
+  }
+  
+  .hero article {
+    position: absolute; /* Positioned over the image */
+    top: 50%; /* Adjust as needed */
+    left: 10%; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 15px; /* Adds spacing inside the article */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    color: white; /* Text color */
+    max-width: 400px; /* Limits the article's width */
+  }
+  
+  .hero article img {
+    float: right; /* Floats the image to the right of the paragraph */
+    margin-left: 10px; /* Adds space between the text and the image */
+    max-width: 50%; /* Ensures the image stays proportional */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
