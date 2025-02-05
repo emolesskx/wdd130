@@ -20,7 +20,13 @@
     font-weight: 400;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+  h1, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 100;
+  }
+  h2 {
+    text-align: center;
     color: var(--primary-color);
     margin-bottom: 1rem;
     font-weight: 100;
@@ -62,41 +68,133 @@ footer {
   
   
   /* Hero Section */
-.hero {
-    position: relative; /* Parent positioned relative for child absolute positioning */
-    width: 100%;
+.white-water-rafting {
+    text-align: center; /* Centers the title */
+    padding: 40px;
+    background-color: #ffffff; /* White background */
+}
+
+.white-water-rafting h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.white-water-rafting .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px; /* Keeps content width controlled */
+    margin: auto;
+}
+
+.white-water-rafting p {
+    flex: 2; /* Takes 2/3 of space */
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.white-water-rafting img {
+    flex: 1; /* Takes 1/3 of space */
+    max-width: 150px; /* Limits image size */
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+
+  header {
+   display: grid;
+   grid-template-columns: auto 1fr auto;
+   align-items: center;
+   padding: 10px 20px;
   }
   
-  .hero img {
-    display: block; /* Makes the image a block element */
-    width: 100%; /* Ensures the image fills the container */
-    height: auto; /* Maintains the aspect ratio */
+  header img {
+    justify-self: start;
   }
   
-  .hero h1 {
-    position: absolute; /* Positioned over the image */
-    top: 20%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-    color: white; /* Ensures readability on dark images */
-    font-size: 2.5rem; /* Adjust font size as needed */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adds contrast for text */
+  h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
   }
   
-  .hero article {
-    position: absolute; /* Positioned over the image */
-    top: 50%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
-    padding: 15px; /* Adds spacing inside the article */
-    border-radius: 8px; /* Rounded corners for a modern look */
-    color: white; /* Text color */
-    max-width: 400px; /* Limits the article's width */
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
   }
   
-  .hero article img {
-    float: right; /* Floats the image to the right of the paragraph */
-    margin-left: 10px; /* Adds space between the text and the image */
-    max-width: 50%; /* Ensures the image stays proportional */
-    height: auto; /* Maintains aspect ratio */
+  .navigation li {
+    flex: 1 1 auto;
   }
+  
+  .navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+
+  .history {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns for text, image, text */
+    gap: 20px;
+    padding: 20px;
+    align-items: center; /* Centers items vertically */
+  }
+  
+  .history h1 {
+    grid-column: 1 / -1; /* Makes the h1 span all columns */
+    text-align: center;  /* Centers the heading */
+    margin-bottom: 20px;
+  }
+  
+  .history img {
+    width: 60%; /* Adjust to 50%, 40%, etc. for a smaller image */
+    max-width: 300px; /* Ensures it doesn't get too big */
+    border-radius: 10px;
+    display: block;
+    margin: auto; /* Centers the image */
+  }
+  
+  
+  .history p {
+    line-height: 1.5;
+  }
+  
+  .adventure {
+    text-align: center; /* Centers the h2 heading */
+}
+
+.adventure-gallery {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Spreads images evenly */
+    align-items: center; /* Aligns items vertically */
+    flex-wrap: nowrap; /* Ensures images stay in one row */
+    gap: 10px; /* Adds spacing between images */
+    overflow-x: auto; /* Allows scrolling if needed */
+    padding: 10px 0; /* Adds spacing around */
+}
+
+.adventure-gallery figure {
+    text-align: center; /* Centers caption below each image */
+    margin: 0;
+}
+
+.adventure-gallery img {
+    width: 180px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
   
