@@ -175,6 +175,12 @@ footer {
   
   .adventure {
     text-align: center; /* Centers the h2 heading */
+    font-weight: 100;
+}
+
+.adventure h2 {
+  text-align: center; /* Centers the h2 heading */
+  font-weight: 100;
 }
 
 .adventure-gallery {
