@@ -9,7 +9,7 @@
 
 /* General styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0 auto;
   max-width: 1200px; /* Limit page width */
   color: var(--text-color);
