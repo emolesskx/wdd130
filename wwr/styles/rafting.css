@@ -38,35 +38,50 @@
   
  /* Footer styling */
 footer {
-    position: relative; /* Makes it possible to position child elements */
-    padding: 20px;
-    background-color: #ffffff; /* Light background */
+  background-color: #f0f8ff;
+    color: #333;
+    padding: 15px;
     text-align: center;
-    font-size: 0.9rem; /* Slightly smaller text for copyright */
-    color: #000000; /* Dark gray text */
-  }
-  
-  /* Footer icons container */
-  .sociallinks {
-    position: absolute; /* Allows positioning relative to the footer */
-    bottom: 10px; /* Position near the bottom of the footer */
-    left: 10px; /* Align to the left */
     display: flex;
-    gap: 5px; /* Space between icons */
+    justify-content: space-between;
+    align-items: center; 
+}
+  
+  
+  /* 
+    padding: 20px;
+    background-color: #ffffff; 
+    text-align: center;
+    font-size: 0.9rem; 
+    color: #000000; */ 
+  
+    .footer {
+      background-color: #ffffff;
+      color: #333;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
   
-  /* Icon styles */
-  .sociallinks a img {
-    width: 20px; /* Make icons small */
-    height: 20px; /* Keep the aspect ratio */
-    transition: transform 0.3s; /* Add hover effect */
+  .social-icons {
+      display: flex;
+      gap: 10px;
   }
   
-  .sociallinks a img:hover {
-    transform: scale(1.2); /* Slightly enlarge on hover */
+  .icon img {
+      width: 35px; /* Adjust the size of the icons */
+      height: 35px;
+      border-radius: 5px; /* Optional: makes the icon slightly rounded */
+      transition: all 0.3s ease-in-out;
   }
   
+  .icon img:hover {
+      opacity: 0.7; /* Add a hover effect */
+  }
   
+
   /* Hero Section */
 .white-water-rafting {
     text-align: center; /* Centers the title */
