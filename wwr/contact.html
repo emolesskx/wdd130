@@ -7,11 +7,11 @@
     <meta name="author" content="Tonderayi Tafirenyika"> 
     <title>Contact Us | Whitewater Rafting Adventures</title>
 
- <link rel="stylesheet" href="styles/contact.css">
+<link rel="stylesheet" href="styles/rafting.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -54,7 +54,7 @@
 
             <!-- Map Section -->
             <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15192.07660827821!2d31.0220417!3d-17.8377371!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2szw!4v1739447548479!5m2!1sen!2szw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15192.07660827821!2d31.0220417!3d-17.8377371!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2szw!4v1739447548479!5m2!1sen!2szw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
@@ -111,16 +111,17 @@
             <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
         </div>
 
-        <button type="submit" class="send-btn">SEND</button>
+        <button type="submit" class="send-btn">Submit the information</button>
     </form>
 </section>
 <div class="comment-section">
     <h2>Leave a comment</h2>
     <form>
-        <input type="text" placeholder="Your name" required>
-        <textarea placeholder="Your comment" required></textarea>
-        <button type="submit">SUBMIT</button>
-    </form>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <textarea id="comment" name="comment" placeholder="Your comment" required></textarea>
+        <button type="submit">Send the comment</button>
+
+        </form>
 </div>
 
     </main>
