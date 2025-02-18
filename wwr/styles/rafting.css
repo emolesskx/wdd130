@@ -961,8 +961,8 @@ header {
 }
 
 .testimonial img {
-  width: 250px;
-  height: 150px;
+  width: 350px;
+  height: 250px;
   border-radius: 10px;
 }
 
@@ -983,3 +983,47 @@ header {
   width: 30px; /* Adjust icon size */
 }
 
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item h2 {
+font-weight: bold;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.newsletter {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.newsletter h2{
+  font-weight: bold;
+}
+
+.newsletter form input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.newsletter form button {
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
