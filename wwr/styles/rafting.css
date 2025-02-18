@@ -2,7 +2,7 @@
 :root {
     --primary-color: #274C77; /* Blue for headings */
     --text-color: #000000; 
-    --background-color: #f0f8ff; /* Light background */
+    --background-color: #A3CEF1; /* Light background */
     --overlay-bg: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
     --link-hover: #00b4d8; /* Light blue for hover effects */
   }
@@ -38,7 +38,7 @@
   
  /* Footer styling */
 footer {
-  background-color: #d0d9e0;
+  background-color: #8B8C89;
     color: #333;
     padding: 15px;
     text-align: center;
@@ -147,7 +147,7 @@ footer {
   
   .navigation a {
     display: block;
-    color: navy;
+    color: #274C77;
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -223,7 +223,7 @@ footer {
 :root {
   --primary-color: #274C77; /* Blue for headings */
   --text-color: #000000; 
-  --background-color: #f0f8ff; /* Light background */
+  --background-color: #A3CEF1; /* Light background */
   --overlay-bg: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
   --link-hover: #00b4d8; /* Light blue for hover effects */
 }
@@ -261,7 +261,7 @@ p {
 
 /* Footer styling */
 footer {
-background-color: #e2e5e8;
+background-color: #8B8C89;
   color: #333;
   padding: 15px;
   text-align: center;
@@ -316,7 +316,7 @@ background-color: #e2e5e8;
 }
 
 .contact-header h1 {
-  color: #007bff;
+  color: #274C77;
   font-size: 30px;
   font-weight: bold;
 }
@@ -341,13 +341,13 @@ background-color: #e2e5e8;
 }
 
 .contact-info h2 {
-  color: #007bff;
+  color: #274C77;
   font-size: 24px;
   font-weight: bold;
 }
 
 .contact-info h3 {
-  color: #007bff;
+  color: #274C77;
   font-weight: 100;
   font-size: 18px;
   margin-bottom: 10px;
@@ -404,7 +404,7 @@ main {
 }
 
 .team-section h2 {
-  color: #007bff;
+  color: #274C77;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -420,7 +420,7 @@ main {
 
 .team-member {
   text-align: center;
-  background: #eef0f4;
+  background: #E7ECEF;
   padding: 20px;
   border-radius: 10px;
 }
@@ -428,7 +428,7 @@ main {
 .team-member img {
   width: 150px;
   height: 150px;
-  background: #eef0f4;
+  background: #E7ECEF;
   border-radius: 10px;
 }
 
@@ -440,7 +440,7 @@ main {
 
 /* CONTACT FORM SECTION */
 .contact-form-section {
-  background: #eef0f4;
+  background: #E7ECEF;
   padding: 40px;
   border-radius: 10px;
   margin: 40px auto;
@@ -451,7 +451,7 @@ main {
 }
 
 .contact-form-section h2 {
-  color: #007bff;
+  color: #274C77;
   font-size: 22px;
   font-weight: bold;
 }
@@ -483,7 +483,7 @@ main {
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #E7ECEF;
   border-radius: 5px;
   margin-top: 5px;
 }
@@ -547,7 +547,7 @@ header {
  
  .navigation a {
    display: block;
-   color: navy;
+   color: #274C77;
    padding: 20px;
    text-decoration: none;
    font-size: 1.2rem;
@@ -561,7 +561,7 @@ header {
 
  /* Comment Section Styling */
 .comment-section {
-  background-color: #f2f4f8; /* Light grey background */
+  background-color: #E7ECEF; /* Light grey background */
   padding: 20px;
   border-radius: 8px;
   width: 60%;
@@ -570,7 +570,7 @@ header {
 
 /* Heading */
 .comment-section h2 {
-  color: #007bff; /* Blue color */
+  color: #274C77; /* Blue color */
   font-size: 20px;
   font-weight: bold;
 }
@@ -581,7 +581,7 @@ header {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #E7ECEF;
   border-radius: 5px;
   font-size: 16px;
 }
@@ -606,7 +606,7 @@ header {
 
 
 footer a {
-  color: #007bff;
+  color: #274C77;
   text-decoration: none;
   font-weight: bold;
 }
@@ -682,7 +682,7 @@ footer a:hover {
 
 .trips-section h2 {
   font-size: 24px;
-  color: #2E2EFF;
+  color: #274C77;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -708,7 +708,7 @@ footer a:hover {
 
 .trip h3 {
   font-size: 16px;
-  color: #2E2EFF;
+  color: #274C77;
   margin: 10px 0;
 }
 
@@ -755,7 +755,7 @@ th, td {
 }
 
 th {
-  background-color: #2E2EFF;
+  background-color: #274C77;
   color: white;
   font-weight: bold;
 }
@@ -816,7 +816,7 @@ header {
 
 .footer-nav a {
   text-decoration: none;
-  color: navy;
+  color: #274C77;
   font-weight: bold;
   font-size: 16px;
 }
@@ -857,7 +857,7 @@ header {
 .footer-bottom a {
   display: block;
   margin-bottom: 10px;
-  color: blue;
+  color: #274C77;
   text-decoration: underline;
   text-align: center;
 }
@@ -969,7 +969,7 @@ header {
 .caption-testimonial {
   margin-top: 5px;
   font-size: 14px;
-  color: blue;
+  color: #274C77;
 }
 
 /* Social Icons */
